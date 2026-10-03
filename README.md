@@ -18,3 +18,9 @@ QuickNotes is a clean, lightweight note-taking web application that lets users q
    git clone https://github.com/Sr7Rama/Quicknotes-app.git
    ```
 2. Open `index.html` in a web browser.
+
+## What I Learned
+
+- **Safe DOM Manipulation:** Utilizing `document.createElement()` and `.textContent` rather than `innerHTML` ensures user inputs are rendered safely without cross-site scripting risks.
+- **State Management & Persistence:** Synchronization between JavaScript memory state, browser `localStorage`, and the DOM structure using `JSON.stringify()` and `JSON.parse()`.
+- **Responsive Web Styling:** Employing CSS Flexbox alongside media queries to adapt form controls seamlessly across screen widths.
